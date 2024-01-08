@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100;300;400;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100;300;400;700;800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  color: black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 45px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-button a {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 60px;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin-left: 49px;
+  padding: 30px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.text {
+  flex: 1;
+}
+
+.text p {
+  color: #676767;
+  text-align: justify;
+}
+.text h1 {
+  font-size: 50px;
+}
+
+.text button {
+  background-color: #0e1035;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px 50px;
+  font-size: large;
+  margin-top: 20px;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -150px;
+  margin-left: -100px;
+}
+.second-container {
+  background-color: #0e1035;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.second-container h4 {
+  text-align: center;
+}
+.company-logos {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  gap: 10vh;
+  padding: 50px 20px;
+  margin-top: 30px;
+}
+
+.company-logos img {
+  height: 100%;
+}
+
+.sub-one {
+  background-color: #0e1035;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.sub-one img {
+  width: 30%;
+  margin-left: 69px;
+  padding-bottom: 50px;
+}
+.abt {
+  margin-left: 150px;
+}
+.underlinefirst p {
+  font-weight: bold;
+}
+.second p {
+  font-weight: bold;
+}
+.abt p {
+  color: white;
+  text-align: justify;
+}
+
+.underlinefirst {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.second {
+  margin-left: 400px;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.third-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.third-container p {
+  line-height: 1rem;
+}
+.third-container h1 {
+  margin: 50px 50px;
+}
+.sub-two {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.underlinesecond {
+  margin-top: 50px;
+}
+
+.underlinesecond p {
+  color: #0e1035;
+  font-weight: bold;
+}
+.third {
+  margin-top: 180px;
+}
+.third p {
+  color: #0e1035;
+  font-weight: bold;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.sub-two img {
+  width: 50%;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.first-side h1 {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: #0e1035;
+}
+.first-side {
+  margin-left: 50px;
+}
+
+.first-side p {
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.fleet h1,
+p {
+  text-align: center;
+}
+.fleet p {
+  line-height: 1.5rem;
+  
+}
+.fleet{
+  margin-top: 50px;
+}
+.fourth-container {
+  margin-top: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  
+  
+  gap: 20px;
+
+  /* align-items: center; */
+  margin-top: 100px;
+  margin-bottom: 250px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.caravan{
+  width: 100%;
+  
+  
+  margin-top: -15px;
+  
+}
+.card{
+  width: 690px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.card img{
+  width: 100%;
+  height: 300px;
+  /* margin-left: 50px; */
+  /* overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 20px 20px 20px 20px; */
+}
+.cards h2 {
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ 
+  
+  font-size: 1rem;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-left: 60px;
+  min-height: 150px;
+  position: relative;
+}
+
+.half-img {
+  display: flex;
+  width: 80%;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: -500px;
+}
+.profile-card img {
+  margin: 25px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.profile-info .one {
+  margin-top: 60px;
+  margin-left: -120px;
+  font-family: "Poppins", sans-serif;
+ 
+}
+
+.say {
+  line-height: 2.9rem;
+  margin-left: 65px;
+}
+
+.profile-info .two {
+  margin-top: 60px;
+  margin-left: -120px;
+  font-family: "Poppins", sans-serif;
+  color: #9c9c9c;
+}
+.profile-info .star {
+  margin-left: -120px;
+}
+
+.profile-info .star-two {
+  margin-left: -120px;
+}
+
+.profile-info h3 {
+  margin-top: 50px;
+}
+.profile-card {
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  justify-content: center;
+  margin: 10px;
+  width: 400px;
+}
+
+.profile-info p {
+  text-align: justify;
+}
+.CTA {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background-color: #0e1035;
+  border-radius: 90px;
+  padding: 90px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 400px;
+  margin-bottom: 60px;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 600px;
+}
+.cont h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+.cont .last-btn {
+  padding: 0;
+}
+
+.last-button a {
+  padding: 20px 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.last-button {
+  margin-top: 50px;
+}
+.footer {
+  color:black;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.logo2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ 
+}
+
+.row {
+  padding: 5px;
+ 
+}
+.row h5 {
+ text-align: justify;
+ color: #0e1035;
+ font-weight: 700;
+ 
+}
+.row ul {
+  padding: 10px;
+  list-style: none;
+  
+}
+.list-items{
+  line-height: 2rem;
+  font-size: .9rem;
+  color: #0e1035;
+  text-align: justify;
+}
+
